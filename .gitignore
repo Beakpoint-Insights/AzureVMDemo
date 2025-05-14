@@ -7,6 +7,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+#Configs
+appsettings.json
+appsettings.*.json
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -36,10 +40,14 @@ ScaffoldingReadMe.txt
 # NuGet Symbol Packages
 *.snupkg
 
+#VS Code
+.vscode
+
 # Others
 ~$*
 *~
 CodeCoverage/
+.qodo
 
 # MSBuild Binary and Structured Log
 *.binlog
